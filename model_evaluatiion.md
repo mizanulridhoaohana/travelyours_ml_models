@@ -10,7 +10,6 @@ Didaparkan hasil:
 
 val_loss = 1.2xx	val_acc = 0.67xxx
 
-
 ### Percobaan 2
 
 Kondisi: 100 kali **augmentasi**, 100 **epoch**, loss function categorical crosssentropy dan Optimizer **RMSProp (lr = 1e-5 & 6))**.
@@ -23,7 +22,6 @@ Hasil terjebak di local minimum.
 
 loop dihentikan di iterasi 15.
 
-
 ### Percobaan 3
 
 Kondisi: 100 kali augmentasi, 100 epoch, loss function categorical crosssentropy dan Optimizer **RMSProp (lr = 1e-2))**.
@@ -35,7 +33,6 @@ val_loss 2.2xxx,	val_acc = 0.08xxx,
 Hasil terjebak di local minimum dan validation loss tidak menunjukkan penurunan lagi.
 
 Loop dihentikan di iterasi 10.
-
 
 ### Percobaan 4
 
@@ -112,7 +109,6 @@ Image: tugu_jogja (132).jpg - Predicted class: tugu_jogja
 1/1 [==============================] - 0s 45ms/step
 Image: tugu_jogja (135).jpg - Predicted class: borobudur
 
-
 ### Percobaan 5
 
 Kondisi: 100 kali **augmentasi**, 100 **epoch**, loss function categorical crosssentropy dan Optimizer **Adam (lr = 1e-4))**.
@@ -124,3 +120,20 @@ val_loss 0.4xxx,	val_acc = 8.7xxx,
 testing accuracy = 0.5333333333333333
 
 ![1685321690558](image/model_evaluatiion/1685321690558.png)
+
+
+### Percobaan 6
+
+Kondisi: 200 kali **augmentasi**, 200 **epoch**, loss function categorical crosssentropy dan Optimizer **RMSprop (lr = 1e-4))**.
+
+Didapatkan hasil:
+
+val_loss 0.2xxx,	val_acc = 9.4xxx,
+
+testing accuracy = 0.7575757575757576
+
+Dengan gambaran sebagai berikut:
+
+![1685428675908](image/model_evaluatiion/1685428675908.png)
+
+![1685428702665](image/model_evaluatiion/1685428702665.png)
